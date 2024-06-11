@@ -1,0 +1,42 @@
+settings:
+  application:
+    env: dev
+    envmsg: cxcbet
+    host: 0.0.0.0
+    isinit: false
+    jwtsecret: 123abc
+    logpath: temp/logs/log.log
+    name: fenrun
+    port: 8005
+    readtimeout: 1
+    writertimeout: 2
+    runtimerootpath: runtime/
+    exportsavepath: export/
+    customerratio: 0.0167
+    salesmanratio: 0.2
+    datacrawlerperiod: 3600
+  admindb:
+    database: test
+    dbtype: mysql
+    host: 127.0.0.1
+    password: 123456
+    port: 3306
+    username: root
+  redis:
+    addr: 127.0.0.1:6379
+    db: 1
+    password:
+    readtimeout: 50
+  oss:
+    endpoint: ""
+    accessKeyID: ""
+    accessKeySecret: ""
+    bucketName: ""
+  upload:
+    UploadPath: "./upload/"
+    MaxSize: 8388608
+    URL: "https://kddsystem.oss-cn-shenzhen.aliyuncs.com"
+    Total: 20
+  lotus:
+    host: "127.0.0.1:1234"
+    token: "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJBbGU"

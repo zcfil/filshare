@@ -1,0 +1,5 @@
+vendor/
+.idea
+runtime/
+/xAdmin.exe
+xAdmin
